@@ -21,7 +21,7 @@ A multi-role placement management system built with Flask, Jinja2, Bootstrap, an
   
 2. Ensure the centralized upload folder exists (it is created automatically when the app starts).
 3. Launch the application:
-   
+   export FLASK_APP="app:create_app"         
    flask --app app:create_app run
 
 4. The default admin user credentials live in environment variables `ADMIN_EMAIL` / `ADMIN_PASSWORD`. Defaults are `admin@placement.local` and `placement123`.
